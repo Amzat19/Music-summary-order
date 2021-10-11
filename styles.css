@@ -24,12 +24,19 @@ body {
     justify-content: center;
     width: 350px;
     height: 525px;
-    border-radius: 15px;
+    border-radius: 20px;
     margin: auto;
     transform: translateY(60px);
   }
 
+  #card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
   #top-img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     padding: 0px 0px 0px 0px;
   }
 
