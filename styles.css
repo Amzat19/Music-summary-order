@@ -9,6 +9,7 @@ body {
 
 body {
     background-color: #e0e8ff;
+   
     margin: 0;
     font-family: "Red Hat Display", sans-serif;
   width: 500px;
@@ -25,12 +26,11 @@ body {
     height: 525px;
     border-radius: 15px;
     margin: auto;
-    transform: translateY(10px);
-    z-index: 10;
+    transform: translateY(60px);
   }
 
   #top-img {
-    padding: 5px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
   }
 
   #flex-item {
@@ -39,7 +39,7 @@ body {
   }
 
   #flex-item a {
-    padding-left: 170px;
+    padding-left: 100px;
     color: #3829e0;
     font-size: medium;
     font-style: italic;
@@ -55,6 +55,44 @@ body {
   #flex-item p {
     margin: 0;
     font-size: medium;
-    padding-left: 20px;
+    padding-left: 50px;
     
+  }
+
+  #flex-item h4 {
+    padding-bottom: 5px;
+  }
+
+  #button {
+    padding: 1.6rem 5rem;
+  }
+  
+  button {
+    font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: small;
+  color: white;
+  border-radius: 50px;
+  border-style: none;
+  background-color: #3829e0;
+  box-shadow: 10px 10px 7px 3px #e0e8ff;
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+  }
+
+  button:hover {
+    background-color: #7c6efc;
+  }
+
+  h3 {
+    font-weight: 900;
+    color: #7280a7;
+    font-size: smaller;
+    padding: 0;
+  }
+
+  h3:hover {
+    cursor: pointer;
+    color: #1f2f56;
   }
