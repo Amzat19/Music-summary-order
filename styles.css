@@ -22,14 +22,14 @@ body {
     align-items: center;
     text-align: center;
     justify-content: center;
-    width: 350px;
-    height: 525px;
+    width: 450px;
+    height: 570px;
     border-radius: 20px;
     margin: auto;
-    transform: translateY(60px);
+    transform: translateY(30px);
   }
 
-  #top-img {
+  img {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     padding: 0px 0px 0px 0px;
@@ -45,6 +45,7 @@ body {
     color: #3829e0;
     font-size: medium;
     font-style: italic;
+    padding-top: 15px;
   }
 
   #flex-item a:hover {
@@ -57,16 +58,18 @@ body {
   #flex-item p {
     margin: 0;
     font-size: medium;
-    padding-left: 50px;
+    padding-left: 100px;
     
   }
 
   #flex-item h4 {
     padding-bottom: 5px;
+    padding-top: 25px;
   }
 
   #button {
-    padding: 1.6rem 5rem;
+    padding: 1.9rem 5rem;
+    
   }
   
   button {
@@ -91,7 +94,6 @@ body {
     font-weight: 900;
     color: #7280a7;
     font-size: smaller;
-    padding: 0;
   }
 
   h3:hover {
