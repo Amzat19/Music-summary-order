@@ -1,0 +1,60 @@
+html,
+body {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #e0e8ff;
+    margin: 0;
+    font-family: "Red Hat Display", sans-serif;
+  width: 500px;
+  margin: 0 auto;
+  }
+
+  #card {
+    position: relative;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 350px;
+    height: 525px;
+    border-radius: 15px;
+    margin: auto;
+    transform: translateY(10px);
+    z-index: 10;
+  }
+
+  #top-img {
+    padding: 5px 0px 0px 0px;
+  }
+
+  #flex-item {
+    display: flex;
+    align-items: center;
+  }
+
+  #flex-item a {
+    padding-left: 170px;
+    color: #3829e0;
+    font-size: medium;
+    font-style: italic;
+  }
+
+  #flex-item a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #7c6efc;
+  }
+
+  #flex-item h4,
+  #flex-item p {
+    margin: 0;
+    font-size: medium;
+    padding-left: 20px;
+    
+  }
